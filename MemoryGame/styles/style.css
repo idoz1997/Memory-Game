@@ -1,0 +1,14 @@
+
+.card {
+    width:150px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+.card.disabled{
+    /*css property that disable click events*/
+    pointer-events: none;
+}
